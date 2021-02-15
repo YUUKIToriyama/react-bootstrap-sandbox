@@ -3,6 +3,8 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
 
+import Header from "./Header";
+
 class App extends React.Component {
 	constructor(props) {
 		super(props);
@@ -14,6 +16,7 @@ class App extends React.Component {
 	render() {
 		return (
 			<div>
+				<Header />
 				<Button
 					variant="primary"
 					disabled={this.state.isLoading}
