@@ -4,6 +4,7 @@ import React from "react";
 import Button from "react-bootstrap/Button";
 
 import Header from "./Header";
+import ShowData from "./ShowData";
 
 class App extends React.Component {
 	constructor(props) {
@@ -25,6 +26,7 @@ class App extends React.Component {
 					{this.state.isLoading ? "Loading..." : "Click to load"}
 				</Button>
 				<Button variant="outline-secondary" size="lg" block>Click me!</Button>
+				<ShowData />
 			</div>
 		)
 	}

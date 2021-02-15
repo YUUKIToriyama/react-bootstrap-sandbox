@@ -7,6 +7,8 @@ import {
 	Button
 } from "react-bootstrap";
 
+import SubmitForm from "./SubmitForm";
+
 class Header extends React.Component {
 	render() {
 		return (
@@ -14,6 +16,7 @@ class Header extends React.Component {
 				<Container>
 					<h1>Hello, world!</h1>
 					<p>ようこそ！</p>
+					<SubmitForm />
 					<Button
 						variant="primary"
 						size="sm"
